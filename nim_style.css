@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+body {
+
+    background-color: c;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+
+
+}
+
+.cir1 {
+
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to left, orange, white);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 450px;
+    margin-bottom: -250px;
+
+
+}
+
+.cir2 {
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to right, #d70200, white);
+    border-radius: 50%;
+    position: absolute;
+    margin-right: 450px;
+    margin-top: -250px;
+}
+
+.card {
+
+    height: 250px;
+    width: 450px;
+    border-radius: 20px;
+    background-color: #54646e;
+    position: absolute;
+    opacity: 0.9;
+    box-shadow: 8px 6px 5px grey;
+}
+
+.header {
+
+    height: 35%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: orange; */
+
+}
+
+.header .logo {
+
+    height: 60px;
+    width: 100px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo .header_img {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.header .chip {
+
+    height: 50px;
+    width: 80px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chip .header_chip {
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.header p {
+
+    font-weight: 900;
+    font-size: 25px;
+    color: white;
+    margin-left: -15px;
+}
+
+.card .bod {
+
+    /* background-color: pink; */
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 15px;
+    margin-top: -1px;
+    word-spacing: 3px;
+
+}
+
+.bod h4 {
+
+    font-weight: 900;
+    font-size: 18px;
+    color: white;
+}
+
+.bod h1 {
+
+    font-weight: 900;
+    font-size: 28px;
+    color: white;
+}
+
+.card .foot {
+
+    height: 25%;
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    /* background-color: pink; */
+    justify-content: space-around;
+
+}
+
+
+.foot h1 {
+
+    font-size: 18px;
+    color: white;
+    font-weight: 900;
+    margin-left: -50px;
+}
+
+.validity {
+
+    margin-bottom: -30px;
+}
+
+.validity h3 {
+
+    font-size: 16px;
+    color: white;
+    font-weight: 900;
+    margin-right: -25px;
+    /* margin-bottom: -1px; */
+}
