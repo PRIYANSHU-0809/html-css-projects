@@ -1,0 +1,36 @@
+body{
+
+    height: 100vh;
+    width:100vw;
+}
+
+.out{
+
+    height: 100%;
+    background-color: red;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.in{
+
+    height: 200px;
+    width: 200px;
+    background: coral;
+
+}
+
+.in_1{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}
+
+.in_2{
+    height: 200px;
+    width: 200px;
+    background-color: beige;
+}
